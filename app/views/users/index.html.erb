@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+<div style="padding-left: 60px; font-family: 'Montserrat', sans-serif;">
+  <h1 style="color:#F79595;padding-bottom:30px; padding-top:20px">Registered users</h1>
+
+  <table class="table table-sm" style="font-size: 15px;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Post</th>
+        <th>Covid Status</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.post %></td>
+          <td><%= user.covidStatus %></td>
+          <td><%= link_to 'Show', user %></td>
+          <td><%= link_to 'Edit', edit_user_path(user) %></td>
+          <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <br>
+
+  <%= link_to 'New User', new_user_path %>
+</div>

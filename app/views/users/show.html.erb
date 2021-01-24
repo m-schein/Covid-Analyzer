@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+<div class="centralizer"style="padding-top: 25px">
+  <div class="card">
+    <div class="card-body">
+      <p class = "name" style= "font-family: 'Montserrat', sans-serif; font-size:15px">
+        <strong>Name:</strong>
+        <%= @user.name %>
+      </p>
+
+      <p class = "name" style= "font-family: 'Montserrat', sans-serif; font-size:15px">
+        <strong>Email:</strong>
+        <%= @user.email %>
+      </p>
+
+      <p class = "name" style= "font-family: 'Montserrat', sans-serif; font-size:15px">
+        <strong>Post:</strong>
+        <%= @user.post %>
+      </p>
+
+      <p class = "name" style= "font-family: 'Montserrat', sans-serif; font-size:15px">
+        <strong>Covid Status:</strong>
+        <%= @user.covidStatus %>
+      </p>
+    </div>
+  </div>
+</div> 
+<div class="centralizer"style="padding-top: 25px">
+  <div class="card">
+    <div class="card-body">
+        <p class="text-center" style="font-family: 'Montserrat', sans-serif;font-size: 13px;color: #F79595;">Thank you for your participation!</p>
+        <a href = "/"><button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: #F79595;">
+            Click to exit
+        </button></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,121 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+$font: 'Montserrat', sans-serif;
+$main-color: #F79595;
+.main-div{
+  width: 100%;
+}
+#topics{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #F79595;
+  font-weight: ligther;
+}
+#error_explanation li{
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+#error_explanation h2{
+  color:#F79595;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-left: 35px;
+}
+.form-title{
+  color:#F79595;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+#form-title{
+  color:#F79595;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+
+}
+.field, .actions{
+  color:#F79595;
+}
+.actions{
+  display: flex;
+  justify-content: center;
+  font-family: $font;
+  font-size: 20px;
+}
+#notice{
+  padding-left: 60px;
+  color:#F79595;
+  font-size: 18px;
+}
+.back{
+  padding-left: 60px;
+}
+#user_name, #user_email,#user_post,#user_covidStatus{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #F5F5F5;
+  border:solid 1px;
+}
+p.name{
+  font-family: 'Montserrat', sans-serif;
+}
+#button{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 50;
+}
+#button:hover{
+  color: #4A4A4A;
+}
+.title, #title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 60;
+}
+.centralizer{
+  display: flex;
+  justify-content: center;
+}
+.body-text{
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: 200;
+}
+#text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #F79595;
+}
+#pos-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+#text:hover{
+  color: #FFC6C6;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+p.a:hover{
+  color:#F9B1B1;
+}
+.links{
+  margin-top: 20px;
+  margin-right: 20%;
+}
+.card{
+  margin-right: 0%;
+  width:50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
