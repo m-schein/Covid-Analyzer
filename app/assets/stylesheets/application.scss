@@ -52,8 +52,8 @@ $main-color: #F79595;
 }
 #user_name, #user_email,#user_post,#user_covidStatus{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px 35px;
+  margin: 3px 0;
   box-sizing: border-box;
   font-size: 15px;
   background-color: #F5F5F5;
@@ -86,11 +86,6 @@ font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 font-weight: 200;
 }
-#text{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  color: #F79595;
-}
 #pos-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -110,12 +105,34 @@ p.a:hover{
   margin-top: 20px;
   margin-right: 20%;
 }
-.card{
-  margin-right: 0%;
-  width:50%;
+@media screen and (min-width: 601px) {
+  #text {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #F79595;
+  }
+  .card{
+    margin-right: 0%;
+    width:50%;
+  }
+  #second-card{
+    font-size:20px;
+  }
 }
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+@media screen and (max-width: 600px) {
+  #text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;  
+    color: #F79595;
+  }
+  .card{
+    width:90%;
+    margin-right: 0%;
+  }
+  .li{
+    font-size:14px;
+  }
+  #second-card{
+    font-size:16px;
+  }
 }
